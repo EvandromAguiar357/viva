@@ -1,0 +1,16 @@
+create database arquivos;
+
+use arquivos;
+
+create table usuarios(
+
+
+id int(11) auto_increment not null,
+nome varchar(45),
+status varchar(5),
+ra int(11),
+data_cad date,
+senha varchar(45)
+
+
+);
